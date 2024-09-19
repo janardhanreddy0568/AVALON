@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <style>
+            .main{
+                border: 2px solid;
+                height: 100vh;
+                width: 100vw;
+                display: grid;
+                grid-template-areas: 
+                'area1 area1 area1 area6'
+                'area1 area1 area1 area6'
+                'area1 area1 area1 area6'
+                'area1 area1 area1 area6'
+                'area1 area1 area1 area6'
+                'area1 area1 area1 area6';
+                gap: 15px;
+            }
+            .img1{
+                grid-area: area1;
+                background-color: aqua;
+                background-image: url(./123/banner-bg.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                color: white;
+            }
+            .img2{
+                grid-area: area2;
+                background-color: blue;
+            }
+            .img3{
+                grid-area: area3;
+                background-color: blueviolet;
+            }
+            .img4{
+                grid-area: area4;
+                background-color: brown;
+            }
+            .img5{
+                grid-area: area5;
+                background-color: chartreuse;
+            }
+            .img6{
+                grid-area: area6;
+                background-color: rgb(249, 132, 49);
+                background-image: url(./123/logo.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                color: white;
+                
+            }
+            .img7{
+                grid-area: area7;
+                background-color: cyan;
+            }
+            .img8{
+                grid-area: area8;
+                background-color: darkblue;
+            }
+            .img9{
+                grid-area: area9;
+                background-color: darkgreen;
+            }
+           
+            
+                            
+            .main2{
+                border: 2px solid;
+                height: 60vh;
+                width: 100vw;
+                display: grid;
+                grid-template-rows: repeat(1,1fr);
+                grid-template-columns: repeat(2,1fr);
+            }
+            .a1{
+                background-image: url(./123/best-offer-bg\ \(1\).png);
+                background-repeat: no-repeat;
+                background-position: left;
+
+            }
+            .a2{
+                background-image: url(./123/best-offer-image.png);
+                background-position:center;
+                background-repeat: no-repeat;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="img img1">
+                
+            </div>
+            <!-- <div class="img img2"></div> -->
+            <!-- <div class="img img3"></div> -->
+            <!-- <div class="img img4"></div>
+            <div class="img img5"></div> -->
+            <div class="img img6">
+                <h1>AVALON</h1>
+            </div>
+            <!-- <div class="img img7"></div>
+            <div class="img img8"></div>
+            <div class="img img9"></div> -->
+        </div>
+        <div class="main2">
+            <div class="a1"></div>
+            <div class="a2"></div>
+            <div class="a3"></div>
+            <div class="a4"></div>
+            <div class="a5"></div>
+        </div>
+    </body>
+</html>
