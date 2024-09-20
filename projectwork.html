@@ -1,113 +1,40 @@
-<html>
+<html></html>
     <head>
         <style>
-            .main{
-                border: 2px solid;
-                height: 100vh;
-                width: 100vw;
+            .s1{
+                
                 display: grid;
-                grid-template-areas: 
-                'area1 area1 area1 area6'
-                'area1 area1 area1 area6'
-                'area1 area1 area1 area6'
-                'area1 area1 area1 area6'
-                'area1 area1 area1 area6'
-                'area1 area1 area1 area6';
-                gap: 15px;
-            }
-            .img1{
-                grid-area: area1;
-                background-color: aqua;
-                background-image: url(./assests/banner-bg.png);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size:cover;
-                color: white;
+               grid-template-columns: repeat(2,1fr);
+               gap: 10px;
             }
             .img2{
-                grid-area: area2;
-                background-color: blue;
-            }
-            .img3{
-                grid-area: area3;
-                background-color: blueviolet;
-            }
-            .img4{
-                grid-area: area4;
-                background-color: brown;
-            }
-            .img5{
-                grid-area: area5;
-                background-color: chartreuse;
-            }
-            .img6{
-                grid-area: area6;
-                background-color: rgb(249, 132, 49);
-                background-image: url(./assests/logo.png);
-                background-repeat: no-repeat;
-                background-position: center;
+                background-color: rgb(246, 183, 65);
+                font-size: 30px;
                 color: white;
-                
             }
-            .img7{
-                grid-area: area7;
-                background-color: cyan;
+            #pic{
+                transform: translate(120px,90px);
             }
-            .img8{
-                grid-area: area8;
-                background-color: darkblue;
+            p{
+                transform: translate(130px,70px);
             }
-            .img9{
-                grid-area: area9;
-                background-color: darkgreen;
-            }
-           
-            
-                            
-            .main2{
-                border: 2px solid;
-                height: 60vh;
-                width: 100vw;
-                display: grid;
-                grid-template-rows: repeat(1,1fr);
-                grid-template-columns: repeat(2,1fr);
-            }
-            .a1{
-                background-image: url(./assests/best-offer-bg(1).png);
-                background-repeat: no-repeat;
-                background-position: left;
-
-            }
-            .a2{
-                background-image: url(./assests/best-offer-image.png);
-                background-position:center;
-                background-repeat: no-repeat;
+            h6{
+               transform: translate(140px,40px);
+               font-size: 10px;
             }
         </style>
 
     </head>
     <body>
-        <div class="main">
-            <div class="img img1">
-                
+        <div class="s1">
+            <div class="img1">
+                <img src="./assets/banner-bg.png">
             </div>
-            <!-- <div class="img img2"></div> -->
-            <!-- <div class="img img3"></div> -->
-            <!-- <div class="img img4"></div>
-            <div class="img img5"></div> -->
-            <div class="img img6">
-                <h1>AVALON</h1>
+            <div class="img2">
+                <img src="./assets/logo.png" id="pic">
+                <P>ALAVON</P>
+                <p><h6>Culative html template</h6></p>
             </div>
-            <!-- <div class="img img7"></div>
-            <div class="img img8"></div>
-            <div class="img img9"></div> -->
-        </div>
-        <div class="main2">
-            <div class="a1"></div>
-            <div class="a2"></div>
-            <div class="a3"></div>
-            <div class="a4"></div>
-            <div class="a5"></div>
         </div>
     </body>
 </html>
